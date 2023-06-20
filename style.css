@@ -1,0 +1,221 @@
+Header {
+    text-align: center;
+    color: white;
+
+}
+
+body {
+    background-size: 0%;
+    background-size: cover;           /* habilita el background*/
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+
+
+.items {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.items ul{
+    margin-top: 3em;
+    width: 940px;
+}
+
+.items li {
+    display: inline-block;
+   /* background-color: #CCCCCC;        añade el padding para una mejor guia*/
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tbtext {
+    resize: none;
+    margin: 0 auto;
+    background-image: linear-gradient(150deg,#cf8bff,rgb(136, 205, 251),#86ebfb);
+    border-style: ridge;
+    border-radius: 3%; 
+    
+}
+
+.Locker img {
+    padding: 1em;
+    margin: 1.25em;
+}
+
+.word{
+    color: white;
+    font-size: 32px;
+}
+
+/*-----------------BOTON ENCRIPTAR-------------------*/
+.btn1{
+    display: inline;
+    border: 0;
+    background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 20px 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    left: 21%;
+}
+
+
+.btn1:hover span{
+    background: none;
+}
+
+.btn1:active{
+    transform: scale(0.9);
+}
+
+/*----------------BOTON DESENCRIPTAR (ES LO MISMO PERO CON ORTA ID)--------------------*/
+
+
+.btn2{
+    display: inline;
+    border: 0;
+    background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 20px 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    left: 70%;
+    
+}
+
+
+.btn2:hover span{
+    background: none;
+}
+
+.btn2:active{
+    transform: scale(0.9);
+}
+
+.btnCopiar{
+    display: inline;
+    border: 0;
+    background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 6px 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    left: 78%;
+    top: 64%; 
+}
+
+.btnCopiar:active{
+    transform: scale(0.9);
+}
+
+Footer{
+    background-color: #09154e;
+    padding: 20px;
+    margin: 100%px 100%;
+    height: 100%;
+}
+
+.miLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    /*position: relative;*/
+}
+
+.copyRight{
+    color:#cccccc;
+    font-size: 13px;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes{
+    color: white;
+    font: 18px;
+    text-align: center;
+    list-style: none;
+}
+
+/*footer{
+   width: 2%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   padding: 2rem 8%;
+   background-color: #0a0f41; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.miLogo{
+    height: 20%;
+    margin-bottom: 1rem;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.socialIcon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #0a0f41;
+    background-color: #0a0f41;
+    margin: 1rem;
+
+}
+
+.socialIcon:Hover{
+    background-color: #616eff;
+    filter: invert(1);
+}
+
+.footerContainer{
+    list-style-type: none;
+    color: #00DDFF;
+    font-size: 18px;
+}
+
+.menuItem{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menuItem:Hover{
+    opacity: 1;
+}
+
+.copyRight{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+}*/
