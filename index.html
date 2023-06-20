@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriprador de texto</title>
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador</title>
+</head>
+
+<!--pattern="[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜ]{2,25}[ ]{1}[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]{2,25}[ ]{1}[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]{2,25}"-->
+<header>
+    <h1>Encriptador de Texto Online</h1>
+</header>
+
+<body background="src/Related image.gif">
+
+
+    <!--Cajas de texto input-->
+    <ul class="items">
+        <li>
+            <textarea class="tbtext" name="input" id="tbInput" cols="30" rows="20"
+                placeholder="Ingresa el texto a encriptar =)" pattern="[a-z]"></textarea>
+
+
+        </li>
+
+        <!--Candado-->
+        <li>
+            <div class="Locker">
+                <img class="lock" src="src/open.png" alt="imagen candado" id="padlock">
+                <p1 Class="word" id="key">Desencriptado</p1>
+            </div>
+
+
+        </li>
+
+        <!--Cajas de texto output-->
+        <li>
+            <textarea class="tbtext" name="output" id="tbOutput" cols="30" rows="20">  </textarea>
+        </li>
+
+    </ul>
+
+
+    <!--botones-->
+
+    <button class="btn1" type="button" onclick=encriptar() id="btnInput">
+        <span>Encriptar</span>
+    </button>
+    <button class="btn2" type="button" onclick=desencriptar() id="btnOutput">
+        <span>Desencriptar</span>
+    </button>
+    <button class="btnCopiar" id="btncopy" onclick=copiar()><span>Copiar</span></button>
+
+    <!--Pie de pagina-->
+
+
+
+    <footer>
+        <img class="miLogo" src="src/gaucho_para_icono.png" alt="Logo barberia">
+        <p class="copyRight"> &copy Copyright Maximiliano Figueroa - 2023 </p>
+        <ul class="redes">
+            <li><a href="https://github.com/maxitkd">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/derubio94/">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+
+<script src="scrypt.js">
+</script>
+
+</html>
